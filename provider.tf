@@ -8,7 +8,7 @@ terraform {
 
 backend  "s3" {
     bucket = "ss-remote-state"
-    key = "expense-vpcc" #different key is using for s3 biucket
+    key = "expense-vpcc-module" #different key is using for s3 biucket
     region = "us-east-1"
     dynamodb_table = "ss-locking"
     }
